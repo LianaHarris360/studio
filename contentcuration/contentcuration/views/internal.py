@@ -682,6 +682,7 @@ def create_node(node_data, parent_node, sort_order):  # noqa: C901
         freeze_authoring_data=True,
         role_visibility=node_data.get('role') or roles.LEARNER,
         complete=is_complete,
+        suggested_duration=node_data.get("suggested_duration"),
         **metadata_labels
     )
 
