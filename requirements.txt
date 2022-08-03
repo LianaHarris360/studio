@@ -24,8 +24,6 @@ botocore==1.20.75
     # via
     #   boto3
     #   s3transfer
-cached-property==1.5.2
-    # via kombu
 cachetools==4.2.2
     # via google-auth
 celery==5.1.2
@@ -169,10 +167,7 @@ httplib2==0.19.1
 idna==2.10
     # via requests
 importlib-metadata==1.7.0
-    # via
-    #   -r requirements.in
-    #   jsonschema
-    #   kombu
+    # via -r requirements.in
 jmespath==0.10.0
     # via
     #   boto3
@@ -195,7 +190,7 @@ packaging==20.9
     # via google-api-core
 pathlib==1.0.1
     # via -r requirements.in
-pillow==8.3.2
+pillow==9.0.1
     # via -r requirements.in
 progressbar2==3.38.0
     # via -r requirements.in
@@ -289,8 +284,6 @@ six==1.16.0
     #   python-utils
 sqlparse==0.4.1
     # via django
-typing-extensions==4.1.1
-    # via asgiref
 uritemplate==3.0.1
     # via google-api-python-client
 urllib3==1.26.5
