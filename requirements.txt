@@ -231,7 +231,7 @@ pytz==2022.1
     #   google-api-core
 pyyaml==6.0
     # via libcst
-redis==4.5.4
+redis==5.0.0
     # via
     #   -r requirements.in
     #   django-redis
