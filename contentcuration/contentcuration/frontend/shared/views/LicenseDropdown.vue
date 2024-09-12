@@ -93,6 +93,8 @@
 
   const MIXED_VALUE = 'mixed';
 
+  const allowedHosts = ['creativecommons.org'];
+
   export default {
     name: 'LicenseDropdown',
     components: {
@@ -223,7 +225,8 @@
         this.showAboutLicense = !this.showAboutLicense;
       },
       getLicenseUrl(license) {
-        const isCC = license.license_url.includes('creativecommons.org');
+        const url = new URL(license.license_url);
+        const isCC = allowedHosts.includes(url.hostname);
         const language = window.languageCode || 'en';
         return isCC ? `${license.license_url}deed.${language}` : license.license_url;
       },
