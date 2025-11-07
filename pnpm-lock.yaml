@@ -126,8 +126,8 @@ importers:
         specifier: ^2.14.4
         version: 2.14.4
       string-strip-html:
-        specifier: 8.3.0
-        version: 8.3.0
+        specifier: 13.5.0
+        version: 13.5.0
       uuid:
         specifier: ^11.1.0
         version: 11.1.0
@@ -1721,6 +1721,12 @@ packages:
     resolution: {integrity: sha512-tJxahnjm9dEI1X+hQSC5f2BSd/coZaqbIl1m3TCl0q9SVuC52XcXfV0XmoCU1+PmjyucuVITwoTnN8OlTbEXXA==}
     deprecated: This is a stub types definition for localforage (https://github.com/localForage/localForage). localforage provides its own type definitions, so you don't need @types/localforage installed!
 
+  '@types/lodash-es@4.17.12':
+    resolution: {integrity: sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==}
+
+  '@types/lodash@4.17.20':
+    resolution: {integrity: sha512-H3MHACvFUEiujabxhaI/ImO6gUrd8oOurg7LQtS7mbwIXA/cUqWrvBsaeJ23aZEPk1TAYkurjfMbSELfoCXlGA==}
+
   '@types/markdown-it@14.1.2':
     resolution: {integrity: sha512-promo4eFwuiW+TfGxhi+0x3czqTYJkG8qB17ZUJiVF10Xm7NLVRSLUsfRTU/6h1e24VvRnXCx+hG7li58lkzog==}
 
@@ -2587,6 +2593,10 @@ packages:
   co@4.6.0:
     resolution: {integrity: sha512-QVb0dM5HvG+uaxitm8wONl7jltx8dqhfU33DcqtOZcLSVIKSDDLDi7+0LbAKiyI8hD9u42m2YxXSkMGWThaecQ==}
     engines: {iojs: '>= 1.0.0', node: '>= 0.12.0'}
+
+  codsen-utils@1.7.0:
+    resolution: {integrity: sha512-J+fnmscIPihyeZGsMsy0wWHXDiA8+51KySw5uGqhKI+iwNSzOwe+sjU4J/BrQajMEBO6BPVx7qDq0cQHnUbrOw==}
+    engines: {node: '>=14.18.0'}
 
   collect-v8-coverage@1.0.2:
     resolution: {integrity: sha512-lHl4d5/ONEbLlJvaJNtsF/Lz+WvB07u2ycqTYbdrq7UypDXailES4valYb2eWiJFxZlVmpGekfqoxQhzyFdT4Q==}
@@ -4971,14 +4981,11 @@ packages:
     resolution: {integrity: sha512-PyWX+NYcJtk+12cARV5qaR0I2cfpHDplpOOI4KKoJtJufdnXo4sJPmfWhbZUAT5rCMgszzU0DovlSjEKp2u12A==}
     engines: {node: '>= 0.8.0'}
 
-  lodash.clonedeep@4.5.0:
-    resolution: {integrity: sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==}
+  lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
 
   lodash.debounce@4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
-
-  lodash.isplainobject@4.0.6:
-    resolution: {integrity: sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==}
 
   lodash.memoize@4.1.2:
     resolution: {integrity: sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==}
@@ -4989,17 +4996,11 @@ packages:
   lodash.sortby@4.7.0:
     resolution: {integrity: sha512-HDWXG8isMntAyRF5vZ7xKuEvOhT4AhlRt/3czTSjvGUxjYCBVRQY48ViDHyfYz9VIoBkW4TMGQNapx+l3RUwdA==}
 
-  lodash.trim@4.5.1:
-    resolution: {integrity: sha512-nJAlRl/K+eiOehWKDzoBVrSMhK0K3A3YQsUNXHQa5yIrKBAhsZgSu3KoAFoFT+mEgiyBHddZ0pRk1ITpIp90Wg==}
-
   lodash.truncate@4.4.2:
     resolution: {integrity: sha512-jttmRe7bRse52OsWIMDLaXxWqRAmtIUccAQ3garviCqJjafXOfNMO0yMfNpdD6zbGaTU0P5Nz7e7gAT6cKmJRw==}
 
   lodash.uniq@4.5.0:
     resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
-
-  lodash.without@4.4.0:
-    resolution: {integrity: sha512-M3MefBwfDhgKgINVuBJCO1YR3+gf6s9HNJsIiZ/Ru77Ws6uTb9eBuvrkpzO+9iLoAaRodGuq7tyrPCx+74QYGQ==}
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -6137,17 +6138,21 @@ packages:
     resolution: {integrity: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==}
     engines: {node: '>= 0.6'}
 
-  ranges-apply@5.1.0:
-    resolution: {integrity: sha512-VF3a0XUuYS/BQHv2RaIyX1K7S1hbfrs64hkGKgPVk0Y7p4XFwSucjTTttrBqmkcmB/PZx5ISTZdxErRZi/89aQ==}
+  ranges-apply@7.1.0:
+    resolution: {integrity: sha512-rtAdRodLlwASQlECefgqYPfyCIRKSE4CJjqIltn4UXwqNvhysR1a2db+U49nU8+5N1L6R71LlVPReCRjf3Henw==}
+    engines: {node: '>=14.18.0'}
 
-  ranges-merge@7.1.0:
-    resolution: {integrity: sha512-coTHcyAEIhoEdsBs9f5f+q0rmy7UHvS/5nfuXzuj5oLX/l/tbqM5uxRb6eh8WMdetXia3lK67ZO4tarH4ieulQ==}
+  ranges-merge@9.1.0:
+    resolution: {integrity: sha512-6jJKvNfscpCga3oEMBlZKbPz/jLwOTRdnpiyaHm/qtl57sWI99ld9qupII3YscbkNcSbt1sfePYC837M2IYf0Q==}
+    engines: {node: '>=14.18.0'}
 
-  ranges-push@5.1.0:
-    resolution: {integrity: sha512-vqGcaGq7GWV1zBa9w83E+dzYkOvE9/3pIRUPvLf12c+mGQCf1nesrkBI7Ob8taN2CC9V1HDSJx0KAQl0SgZftA==}
+  ranges-push@7.1.0:
+    resolution: {integrity: sha512-5PiLj4BHiG56CTsLGtvdaukgTRTFrzLpET2eAEx8dsJzigOh8phtzjE7zSlYhaUcnVGMmAqWkfTjcWIQhqjpJg==}
+    engines: {node: '>=14.18.0'}
 
-  ranges-sort@4.1.0:
-    resolution: {integrity: sha512-GOQgk6UtsrfKFeYa53YLiBVnLINwYmOk5l2QZG1csZpT6GdImUwooh+/cRrp7b+fYawZX/rnyA3Ul+pdgQBIzA==}
+  ranges-sort@6.1.0:
+    resolution: {integrity: sha512-esvEBNDhydnuojWhXkiZnHv4infMKaeD4NsCqce++uYxnRIAXIS6R3iAMNVLqxaPZn+4+h5dhEPXCuBgpExakg==}
+    engines: {node: '>=14.18.0'}
 
   raw-body@2.5.2:
     resolution: {integrity: sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA==}
@@ -6324,6 +6329,9 @@ packages:
 
   rewire@6.0.0:
     resolution: {integrity: sha512-7sZdz5dptqBCapJYocw9EcppLU62KMEqDLIILJnNET2iqzXHaQfaVP5SOJ06XvjX+dNIDJbzjw0ZWzrgDhtjYg==}
+
+  rfdc@1.4.1:
+    resolution: {integrity: sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==}
 
   rgbcolor@1.0.1:
     resolution: {integrity: sha512-9aZLIrhRaD97sgVhtJOW6ckOEh6/GnvQtdVNfdZ6s67+3/XwLS9lBcQYzEEhYVeUowN7pRzMLsyGhK2i/xvWbw==}
@@ -6698,24 +6706,28 @@ packages:
   store2@2.14.4:
     resolution: {integrity: sha512-srTItn1GOvyvOycgxjAnPA63FZNwy0PTyUBFMHRM+hVFltAeoh0LmNBz9SZqUS9mMqGk8rfyWyXn3GH5ReJ8Zw==}
 
-  string-collapse-leading-whitespace@5.1.0:
-    resolution: {integrity: sha512-mYz9/Kb5uvRB4DZj46zILwI4y9lD9JsvXG9Xb7zjbwm0I/R40G7oFfMsqJ28l2d7gWMTLJL569NfJQVLQbnHCw==}
+  string-collapse-leading-whitespace@7.1.0:
+    resolution: {integrity: sha512-VDQaY0zGeD+S36xwreMWw64C+fl31FoS4txHScuUoUw6B760P63Q00FVdcF7SU1qXD5FKG1ptMWrtV65l+kvcw==}
+    engines: {node: '>=14.18.0'}
 
   string-hash@1.1.3:
     resolution: {integrity: sha512-kJUvRUFK49aub+a7T1nNE66EJbZBMnBgoC1UbCZ5n6bsZKBRga4KgBRTMn/pFkeCZSYtNeSyMxPDM0AXWELk2A==}
 
-  string-left-right@4.1.0:
-    resolution: {integrity: sha512-ic/WvfNVUygWWsgg8akzSzp2NuttfhrdbH7QmSnda5b5RFmT9aCEDiS/M+gmTJwtFy7+b/2AXU4Z6vejcePQqQ==}
+  string-left-right@6.1.0:
+    resolution: {integrity: sha512-Y+QrkHzY7S8/UuArnhJkStKdHfQI4dJv9K3qWDJ2W0WVQXFkG5Zh+YbxMVssGdk84FLwhg5yxg9/y9AORaqbRA==}
+    engines: {node: '>=14.18.0'}
 
   string-length@4.0.2:
     resolution: {integrity: sha512-+l6rNN5fYHNhZZy41RXsYptCjA2Igmq4EG7kZAYFQI1E1VTXarr6ZPXBg6eq7Y6eK4FEhY6AJlyuFIb/v/S0VQ==}
     engines: {node: '>=10'}
 
-  string-strip-html@8.3.0:
-    resolution: {integrity: sha512-1+rjTPt0JjpFr1w0bfNL1S6O0I9fJDqM+P3pFTpC6eEEpIXhmBvPLnaQoEuWarswiH219qCefDSxTLxGQyHKUg==}
+  string-strip-html@13.5.0:
+    resolution: {integrity: sha512-U2ZnVRhqLuCvczaZEyk7yz4Mu91VfNHGOKtulm2Y5m8I69mp2Epr7NeoDaBxrscAQAX/gNuUQEikzaPXBWH/5g==}
+    engines: {node: '>=14.18.0'}
 
-  string-trim-spaces-only@3.1.0:
-    resolution: {integrity: sha512-AW7RSi3+QtE6wR+4m/kmwlyy39neBbCIzrzzu1/RGzNRiPKQOeB3rGzr4ubg4UIQgYtr2w0PrxhKPXgyqJ0vaQ==}
+  string-trim-spaces-only@5.1.0:
+    resolution: {integrity: sha512-632znq4SGCNM7Vw7QITbx05oej+Xly2s7OtDxN9jvNbOoWcQuA5fq14CAS5TlpiiB04LDETzJj9fk851PnWLgg==}
+    engines: {node: '>=14.18.0'}
 
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
@@ -9456,6 +9468,12 @@ snapshots:
     dependencies:
       localforage: 1.10.0
 
+  '@types/lodash-es@4.17.12':
+    dependencies:
+      '@types/lodash': 4.17.20
+
+  '@types/lodash@4.17.20': {}
+
   '@types/markdown-it@14.1.2':
     dependencies:
       '@types/linkify-it': 5.0.0
@@ -10590,6 +10608,10 @@ snapshots:
   clone@2.1.2: {}
 
   co@4.6.0: {}
+
+  codsen-utils@1.7.0:
+    dependencies:
+      rfdc: 1.4.1
 
   collect-v8-coverage@1.0.2: {}
 
@@ -13479,11 +13501,9 @@ snapshots:
 
   lockr@0.8.5: {}
 
-  lodash.clonedeep@4.5.0: {}
+  lodash-es@4.17.21: {}
 
   lodash.debounce@4.0.8: {}
-
-  lodash.isplainobject@4.0.6: {}
 
   lodash.memoize@4.1.2: {}
 
@@ -13491,13 +13511,9 @@ snapshots:
 
   lodash.sortby@4.7.0: {}
 
-  lodash.trim@4.5.1: {}
-
   lodash.truncate@4.4.2: {}
 
   lodash.uniq@4.5.0: {}
-
-  lodash.without@4.4.0: {}
 
   lodash@4.17.21: {}
 
@@ -14652,27 +14668,24 @@ snapshots:
 
   range-parser@1.2.1: {}
 
-  ranges-apply@5.1.0:
+  ranges-apply@7.1.0:
     dependencies:
-      '@babel/runtime': 7.28.4
-      ranges-merge: 7.1.0
+      ranges-merge: 9.1.0
+      tiny-invariant: 1.3.3
 
-  ranges-merge@7.1.0:
+  ranges-merge@9.1.0:
     dependencies:
-      '@babel/runtime': 7.28.4
-      ranges-push: 5.1.0
-      ranges-sort: 4.1.0
+      ranges-push: 7.1.0
+      ranges-sort: 6.1.0
 
-  ranges-push@5.1.0:
+  ranges-push@7.1.0:
     dependencies:
-      '@babel/runtime': 7.28.4
-      ranges-merge: 7.1.0
-      string-collapse-leading-whitespace: 5.1.0
-      string-trim-spaces-only: 3.1.0
+      codsen-utils: 1.7.0
+      ranges-sort: 6.1.0
+      string-collapse-leading-whitespace: 7.1.0
+      string-trim-spaces-only: 5.1.0
 
-  ranges-sort@4.1.0:
-    dependencies:
-      '@babel/runtime': 7.28.4
+  ranges-sort@6.1.0: {}
 
   raw-body@2.5.2:
     dependencies:
@@ -14895,6 +14908,8 @@ snapshots:
       eslint: 7.32.0
     transitivePeerDependencies:
       - supports-color
+
+  rfdc@1.4.1: {}
 
   rgbcolor@1.0.1: {}
 
@@ -15328,37 +15343,31 @@ snapshots:
 
   store2@2.14.4: {}
 
-  string-collapse-leading-whitespace@5.1.0:
-    dependencies:
-      '@babel/runtime': 7.28.4
+  string-collapse-leading-whitespace@7.1.0: {}
 
   string-hash@1.1.3: {}
 
-  string-left-right@4.1.0:
+  string-left-right@6.1.0:
     dependencies:
-      '@babel/runtime': 7.28.4
-      lodash.clonedeep: 4.5.0
-      lodash.isplainobject: 4.0.6
+      codsen-utils: 1.7.0
+      rfdc: 1.4.1
 
   string-length@4.0.2:
     dependencies:
       char-regex: 1.0.2
       strip-ansi: 6.0.1
 
-  string-strip-html@8.3.0:
+  string-strip-html@13.5.0:
     dependencies:
-      '@babel/runtime': 7.27.6
+      '@types/lodash-es': 4.17.12
+      codsen-utils: 1.7.0
       html-entities: 2.6.0
-      lodash.isplainobject: 4.0.6
-      lodash.trim: 4.5.1
-      lodash.without: 4.4.0
-      ranges-apply: 5.1.0
-      ranges-push: 5.1.0
-      string-left-right: 4.1.0
+      lodash-es: 4.17.21
+      ranges-apply: 7.1.0
+      ranges-push: 7.1.0
+      string-left-right: 6.1.0
 
-  string-trim-spaces-only@3.1.0:
-    dependencies:
-      '@babel/runtime': 7.28.4
+  string-trim-spaces-only@5.1.0: {}
 
   string-width@4.2.3:
     dependencies:
