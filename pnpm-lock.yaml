@@ -93,8 +93,8 @@ importers:
         specifier: ^16.1.1
         version: 16.1.1
       material-icons:
-        specifier: 0.3.1
-        version: 0.3.1
+        specifier: 1.13.14
+        version: 1.13.14
       mathlive:
         specifier: ^0.105.3
         version: 0.105.3
@@ -5080,8 +5080,8 @@ packages:
   marks-pane@1.0.9:
     resolution: {integrity: sha512-Ahs4oeG90tbdPWwAJkAAoHg2lRR8lAs9mZXETNPO9hYg3AkjUJBKi1NQ4aaIQZVGrig7c/3NUV1jANl8rFTeMg==}
 
-  material-icons@0.3.1:
-    resolution: {integrity: sha512-5Hbj76A6xDPcDZEbM4oxTknhWuMwGWnAHVLLPCEq9eVlcHb0fn4koU9ZeyMy1wjARtDEPAHfd5ZdL2Re5hf0zQ==}
+  material-icons@1.13.14:
+    resolution: {integrity: sha512-kZOfc7xCC0rAT8Q3DQixYAeT+tBqZnxkseQtp2bxBxz7q5pMAC+wmit7vJn1g/l7wRU+HEPq23gER4iPjGs5Cg==}
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -13625,7 +13625,7 @@ snapshots:
 
   marks-pane@1.0.9: {}
 
-  material-icons@0.3.1: {}
+  material-icons@1.13.14: {}
 
   math-intrinsics@1.1.0: {}
 
